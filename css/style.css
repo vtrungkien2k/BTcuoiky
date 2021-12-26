@@ -1,7 +1,10 @@
-html{
+:root{
+    --color: rgba(218,224,230,1);
+}
+html body{
     padding: 0;
     margin: 0;
-    background-color: rgba(218,224,230,1);
+    background-color: var(--color);
 }
 .top-header{
     background-color: white;
@@ -81,3 +84,108 @@ html{
 #btn-User i{
     font-size: 15px;
 }
+/* Top trending */
+.trending{
+    height: 224px;
+    width: 65%;
+    
+    
+    
+
+}
+.trending p{
+    margin-left: 0;
+    font-weight: bold;
+    font-size: 13.5px;
+}
+.trending div>div{
+    height: 178px;
+    
+}
+.trending img{
+    height: 178px;
+    width: 100%;
+    
+
+}
+/* main */
+.main{
+    width: 100%;
+    height: 100vh;
+    padding: 10px 24px;
+    
+
+}
+.main-body{
+    margin: 0 17%;
+    box-sizing: border-box;
+    height: 100vh;
+}
+.main-body-left{
+    
+    
+}
+.main p{
+    
+    
+    font-weight: bold;
+    font-size: 13.5px;
+}
+.nav-item{
+    background-color: white;
+    align-items: center;
+    margin-bottom: 12px;
+    border: 1px solid var(--color);
+    border-radius: 4px;
+    height: 60.4px;
+    padding: 10px 12px;
+}
+.main .nav-item button{
+    border: 1px solid var(--color);
+    border-radius: 15px;
+    background-color:rgb(246, 247, 248);
+    height: 32px;
+    margin-top: 5px;
+    width: 70px;
+    
+}
+.main .content{
+    
+    height: 200px;
+    margin-bottom: 16px;
+    border: 1px solid var(--color);
+    padding: 10px 12px;
+    border-radius: 5px;
+}
+.content .content-left{
+    background-color: green;
+
+    background-color: rgba(248,249,250,1);
+}
+.vflag{
+    display: flex;
+    height: 50px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    background-color: rgba(248,249,250,1);;
+}
+.vflag button{
+    border:none;
+    color: rgb(169, 170, 172);
+}
+.content .content-right{
+    background-color: white;
+    height: 200px;
+    display: flex;
+}
+.content-right .info-User{
+    display: flex;
+}
+
+.main-body-right{
+    background-color: cyan;
+}
+
+
